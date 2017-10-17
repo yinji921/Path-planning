@@ -1,0 +1,12 @@
+
+1. g++ -std=c++11 -o route main.cpp Environment.cpp `pkg-config opencv --cflags --libs`
+
+
+2. sudo ldconfig
+
+
+3. ./route 
+
+4. or ./route|python3 plotLine.py
+
+The visualization of the obstacles may not be present correctly due to different versions of opencv
